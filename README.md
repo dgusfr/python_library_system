@@ -1,4 +1,3 @@
-feat(controller): implement check for book availability in BibliotecaController
 feat(models): add return logic in Emprestimo class
 feat(view): develop menu functions in menu.py for user interface
 chore(view): add input validation in menu.py
