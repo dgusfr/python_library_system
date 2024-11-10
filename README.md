@@ -2,10 +2,6 @@
 
 Este é um sistema de gerenciamento de biblioteca implementado com Programação Orientada a Objetos (POO) em Python. O projeto permite gerenciar livros, usuários e empréstimos, simulando um sistema de biblioteca funcional.
 
-<div align="center">
-  <img src="img/logo.png" alt="Imagem do Projeto" width="100">
-</div>
-
 ## Sumário
 
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
@@ -52,6 +48,22 @@ O projeto segue os princípios de Programação Orientada a Objetos (POO), separ
 ## Como Usar
 
 1. Clone o repositório para seu ambiente local:
+
    ```bash
    git clone https://github.com/seu-usuario/sistema-biblioteca.git
    ```
+
+2. Navegue até o diretório do projeto::
+
+   ```bash
+   cd sistema-biblioteca
+   ```
+
+3. Execute o programa:
+   ```bash
+   python main.py
+   ```
+
+## Autor
+
+Desenvolvido por Diego Franco
