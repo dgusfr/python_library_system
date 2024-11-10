@@ -1,7 +1,57 @@
-feat(models): add return logic in Emprestimo class
-feat(view): develop menu functions in menu.py for user interface
-chore(view): add input validation in menu.py
-feat(main): initialize Biblioteca and BibliotecaController instances in main.py
-feat(view): add options to add new books and users in menu
-feat(view): integrate loan and return logic in main menu
-refactor(controller): improve loan management and return logic in BibliotecaController
+# Sistema de Biblioteca POO em Python
+
+Este é um sistema de gerenciamento de biblioteca implementado com Programação Orientada a Objetos (POO) em Python. O projeto permite gerenciar livros, usuários e empréstimos, simulando um sistema de biblioteca funcional.
+
+<div align="center">
+  <img src="img/logo.png" alt="Imagem do Projeto" width="100">
+</div>
+
+## Sumário
+
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Status](#status)
+- [Descrição](#descrição)
+- [Funcionalidades](#funcionalidades)
+- [Explicação](#explicação)
+- [Como Usar](#como-usar)
+- [Autor](#autor)
+
+## Tecnologias Utilizadas
+
+<div style="display: flex; flex-direction: row;">
+  <div style="margin-right: 20px; display: flex; justify-content: flex-start;">
+    <img src="img/python.png" alt="Logo Python" width="100"/>
+  </div>
+</div>
+
+## Status
+
+![Em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge)
+
+## Descrição
+
+Este projeto permite o gerenciamento básico de uma biblioteca. Ele oferece funcionalidades para adicionar, listar e remover livros e usuários, além de gerenciar o sistema de empréstimos e devoluções de livros.
+
+## Funcionalidades
+
+- Adicionar, listar e remover livros da biblioteca.
+- Adicionar, listar e remover usuários.
+- Registrar empréstimos e devoluções de livros.
+- Exibir um boletim de usuários e livros com status atualizado.
+
+## Explicação
+
+O projeto segue os princípios de Programação Orientada a Objetos (POO), separando as classes e funções para diferentes operações. As principais classes e funções incluem:
+
+- **Livro**: Classe que representa um livro com título e autor.
+- **Usuario**: Classe que representa um usuário com nome e idade.
+- **Biblioteca**: Classe que gerencia o inventário de livros e empréstimos.
+- **Emprestimo**: Classe que lida com a lógica de empréstimos e devoluções de livros.
+- **Controller**: Controladores para gerenciar as operações de livro e usuário.
+
+## Como Usar
+
+1. Clone o repositório para seu ambiente local:
+   ```bash
+   git clone https://github.com/seu-usuario/sistema-biblioteca.git
+   ```
