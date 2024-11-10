@@ -16,7 +16,7 @@ Este é um sistema de gerenciamento de biblioteca implementado com Programação
 
 <div style="display: flex; flex-direction: row;">
   <div style="margin-right: 20px; display: flex; justify-content: flex-start;">
-    <img src="img/python.png" alt="Logo Python" width="100"/>
+    <img src="img/python.png" alt="Logo Python" width="150"/>
   </div>
 </div>
 
