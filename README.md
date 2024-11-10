@@ -1,4 +1,3 @@
-feat(models): create Biblioteca class and implement methods for managing books and users
 feat(models): add Emprestimo class to handle book loans
 feat(controller): add BibliotecaController for loan and return logic
 feat(controller): implement check for book availability in BibliotecaController
