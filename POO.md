@@ -1,8 +1,4 @@
-Aqui está o guia resumido e formatado em **Markdown** para aprendizado em **Python** com foco em **Programação Orientada a Objetos (POO)**:
-
----
-
-# **Guia Rápido de Programação Orientada a Objetos (POO) com Python**
+# **Programação Orientada a Objetos (POO) com Python**
 
 ## **1. Fundamentos da POO**
 A **Programação Orientada a Objetos (POO)** organiza o código para representar conceitos do mundo real. Ela facilita a reutilização de código e a manutenção de sistemas complexos.
