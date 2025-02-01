@@ -224,6 +224,5 @@ print(json_string)  # Saída: {"nome": "João", "idade": 30}
 5. **Herança**:
    - Crie `Animal` com `fazer_som()`.
    - Crie `Cachorro` e `Gato` herdando `Animal`, implementando `fazer_som()`.
-6. **Polimorfismo**:
-   - Crie `emitir_som(animal: Animal)`, aceitando `Cachorro` e `Gato`.
+
 
