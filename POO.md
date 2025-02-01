@@ -217,7 +217,7 @@ print(json_string)  # Saída: {"nome": "João", "idade": 30}
 ## **6. Exercícios**
 1. **Criação de Classe**: Crie uma classe `Carro` com atributos `marca`, `modelo` e `ano`.
 2. **Construtor**: Modifique `Carro` para inicializar atributos no `__init__`.
-3. **Métodos**: Adicione `exibir_detalhes()` que imprime as informações do carro.
+
 
 
 
