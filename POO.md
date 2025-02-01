@@ -221,8 +221,6 @@ print(json_string)  # Saída: {"nome": "João", "idade": 30}
 4. **Métodos Especiais**:
    - `__str__`: Retorne os detalhes do carro.
    - `__len__`: Retorne a idade do carro (ano atual - ano de fabricação).
-5. **Herança**:
-   - Crie `Animal` com `fazer_som()`.
-   - Crie `Cachorro` e `Gato` herdando `Animal`, implementando `fazer_som()`.
+
 
 
