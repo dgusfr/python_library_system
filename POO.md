@@ -215,7 +215,7 @@ print(json_string)  # Saída: {"nome": "João", "idade": 30}
 ---
 
 ## **6. Exercícios**
-1. **Criação de Classe**: Crie uma classe `Carro` com atributos `marca`, 
+
 
 
 
