@@ -233,5 +233,3 @@ print(json_string)  # Saída: {"nome": "João", "idade": 30}
    - Crie `Vetor(x, y)`, sobrecarregando `+`, `-`, `*`, `/`.
 
 ---
-
-Esse guia resume os principais conceitos de **POO em Python**, incluindo **herança, polimorfismo, encapsulamento, APIs e gerenciamento de pacotes**. Pratique os exercícios para fixar o conteúdo! 🚀
