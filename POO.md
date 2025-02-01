@@ -214,7 +214,6 @@ print(json_string)  # Saída: {"nome": "João", "idade": 30}
 
 ---
 
-## **6. Exercícios**
 
 
 
