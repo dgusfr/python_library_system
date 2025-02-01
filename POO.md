@@ -229,7 +229,4 @@ print(json_string)  # Saída: {"nome": "João", "idade": 30}
 7. **Abstração**:
    - Crie `Forma` com `area()`.
    - Subclasses `Quadrado` e `Circulo` devem implementar `area()`.
-8. **Sobrecarga de Operadores**:
-   - Crie `Vetor(x, y)`, sobrecarregando `+`, `-`, `*`, `/`.
 
----
