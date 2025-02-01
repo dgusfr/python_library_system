@@ -226,7 +226,4 @@ print(json_string)  # Saída: {"nome": "João", "idade": 30}
    - Crie `Cachorro` e `Gato` herdando `Animal`, implementando `fazer_som()`.
 6. **Polimorfismo**:
    - Crie `emitir_som(animal: Animal)`, aceitando `Cachorro` e `Gato`.
-7. **Abstração**:
-   - Crie `Forma` com `area()`.
-   - Subclasses `Quadrado` e `Circulo` devem implementar `area()`.
 
