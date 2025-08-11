@@ -12,17 +12,6 @@ Este é um sistema de gerenciamento de biblioteca implementado com Programação
 - [Como Usar](#como-usar)
 - [Autor](#autor)
 
-## Tecnologias Utilizadas
-
-<div style="display: flex; flex-direction: row;">
-  <div style="margin-right: 20px; display: flex; justify-content: flex-start;">
-    <img src="img/python.png" alt="Logo Python" width="150"/>
-  </div>
-</div>
-
-## Status
-
-![Em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge)
 
 ## Descrição
 
