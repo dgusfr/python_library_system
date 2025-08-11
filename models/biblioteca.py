@@ -12,3 +12,6 @@ class Biblioteca:
     def listar_livros(self):
         if not self.livros:
             print("Nenhum livro cadastrado.")
+        else:
+            for livro in self.livros:
+                print(livro)
