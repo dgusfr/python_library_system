@@ -28,7 +28,7 @@ def menu():
                 titulo = input("Digite o título do livro: ")
                 autor = input("Digite o autor do livro: ")
                 ano = input("Digite o ano de publicação do livro: ")
-                livro = Livro(titulo, autor)
+                livro = Livro(titulo, autor, ano)
                 biblioteca.adicionar_livro(livro)
                 print("Livro adicionado com sucesso.")
             case "2":
