@@ -45,24 +45,6 @@ O projeto segue os princípios de Programação Orientada a Objetos (POO), separ
 - **Emprestimo**: Classe que lida com a lógica de empréstimos e devoluções de livros.
 - **Controller**: Controladores para gerenciar as operações de livro e usuário.
 
-## Como Usar
-
-1. Clone o repositório para seu ambiente local:
-
-   ```bash
-   git clone https://github.com/seu-usuario/sistema-biblioteca.git
-   ```
-
-2. Navegue até o diretório do projeto::
-
-   ```bash
-   cd sistema-biblioteca
-   ```
-
-3. Execute o programa:
-   ```bash
-   python main.py
-   ```
 
 ## Autor
 
