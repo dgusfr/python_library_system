@@ -1,6 +1,7 @@
-from biblioteca import Biblioteca
+from models.biblioteca import Biblioteca
 from livro import Livro
 from usuario import Usuario
+
 
 def exibir_menu():
     print("\n===== Sistema de Biblioteca =====")
@@ -13,6 +14,7 @@ def exibir_menu():
     print("7. Realizar Empréstimo")
     print("8. Registrar Devolução")
     print("9. Sair")
+
 
 def menu():
     biblioteca = Biblioteca()
@@ -27,43 +29,44 @@ def menu():
             livro = Livro(titulo, autor)
             biblioteca.adicionar_livro(livro)
             print("Livro adicionado com sucesso.")
-        
+
         elif opcao == "2":
             biblioteca.listar_livros()
-        
+
         elif opcao == "3":
             titulo = input("Digite o título do livro a ser removido: ")
             biblioteca.remover_livro(titulo)
-        
+
         elif opcao == "4":
             nome = input("Digite o nome do usuário: ")
             idade = input("Digite a idade do usuário: ")
             usuario = Usuario(nome, idade)
             biblioteca.adicionar_usuario(usuario)
             print("Usuário adicionado com sucesso.")
-        
+
         elif opcao == "5":
             biblioteca.listar_usuarios()
-        
+
         elif opcao == "6":
             nome = input("Digite o nome do usuário a ser removido: ")
             biblioteca.remover_usuario(nome)
-        
+
         elif opcao == "7":
             titulo = input("Digite o título do livro para empréstimo: ")
             nome = input("Digite o nome do usuário que fará o empréstimo: ")
             biblioteca.realizar_emprestimo(titulo, nome)
-        
+
         elif opcao == "8":
             titulo = input("Digite o título do livro a ser devolvido: ")
             biblioteca.registrar_devolucao(titulo)
-        
+
         elif opcao == "9":
             print("Saindo do sistema...")
             break
-        
+
         else:
             print("Opção inválida. Tente novamente.")
+
 
 if __name__ == "__main__":
     menu()
