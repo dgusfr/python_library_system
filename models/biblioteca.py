@@ -8,3 +8,7 @@ class Biblioteca:
 
     def adicionar_usuario(self, usuario):
         self.usuarios.append(usuario)
+
+    def listar_livros(self):
+        if not self.livros:
+            print("Nenhum livro cadastrado.")
