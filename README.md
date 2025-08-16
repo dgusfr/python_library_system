@@ -30,7 +30,6 @@ Este projeto permite o gerenciamento básico de uma biblioteca, ele possuiu os s
 </div>
 
 
-
 Para implementar essas funcionalidades, o nosso porjeto conta com as seguintes classes fundamentais:
 
 1.  **O Item do Acervo:** Aquilo que a biblioteca empresta. Pode ser um livro, uma revista, um filme, etc.
@@ -38,7 +37,7 @@ Para implementar essas funcionalidades, o nosso porjeto conta com as seguintes c
 3.  **O Empréstimo:** O ato que conecta um `Usuário` a um `Item` por um período.
 4.  **A Biblioteca:** A entidade central que gerencia todo o acervo, os usuários e os empréstimos.
 
-Isso nos leva naturalmente às seguintes classes principais: `ItemAcervo`, `Usuario`, `Emprestimo` e `Biblioteca`.
+As classes são intituladas como: `ItemAcervo`, `Usuario`, `Emprestimo` e `Biblioteca`.
 
 
 
