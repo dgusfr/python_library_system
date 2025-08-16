@@ -19,13 +19,14 @@ Este projeto permite o gerenciamento básico de uma biblioteca, ele possuiu os s
 
 * 1. `Gestão do Acervo`
 
-* 2. Gestão de Usuários
+* 2. `Gestão de Usuários`
 
-* 3. Operações de Empréstimo
+* 3. `Operações de Empréstimo`
 
-* 4. Consultas e Relatórios
+* 4. `Consultas e Relatórios`
 
- nele temos quatro entidades fundamentais:
+
+Para implementar essas funcionalidades, o nosso porjeto conta com as seguintes classes fundamentais:
 
 1.  **O Item do Acervo:** Aquilo que a biblioteca empresta. Pode ser um livro, uma revista, um filme, etc.
 2.  **O Usuário:** A pessoa que pega um item emprestado.
