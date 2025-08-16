@@ -2,10 +2,10 @@ from datetime import datetime, timedelta
 
 
 class Emprestimo:
-    def __init__(self, idEmprestimo, usuario, item, StatusEmprestimo):
+    def __init__(self, idEmprestimo, idUsuario, idItem, StatusEmprestimo):
         self.idEmprestimo = idEmprestimo
-        self.usuario = usuario
-        self.item = item
+        self.usuario = idUsuario
+        self.item = idItem
         self.StatusEmprestimo = StatusEmprestimo
         self.dataEmprestimo = datetime.now()
         self.dataDevolucaoPrevista = None
