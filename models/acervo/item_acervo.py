@@ -11,3 +11,6 @@ class ItemAcervo(ABC):
     @abstractmethod
     def descrever(self):
         pass
+
+    def alterarStatus(self, novoStatus):
+        self.status = novoStatus

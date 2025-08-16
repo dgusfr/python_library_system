@@ -76,8 +76,8 @@ classDiagram
 
     class Emprestimo {
         -string idEmprestimo
-        -ItemAcervo item
-        -Usuario usuario
+        -ItemAcervo idItem
+        -Usuario idUsuario
         -date dataEmprestimo
         -date dataDevolucaoPrevista
         -date dataDevolucaoReal

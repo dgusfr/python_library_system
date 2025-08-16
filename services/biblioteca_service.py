@@ -51,7 +51,7 @@ class Biblioteca:
         usuarioEncontrado = None
         for usuario in self.usuarios:
             if usuario.idUsuario == idUsuario:
-                usuarioEncontrado == usuario
+                usuarioEncontrado = usuario
                 break
 
         itemEcontrado = None
@@ -79,11 +79,12 @@ class Biblioteca:
 
         novoEmprestimo = Emprestimo(idEmprestimo, idUsuario, idItem, StatusEmprestimo)
         print("Emprestimo realizado com sucesso!")
+        itemEcontrado.alterarStatus("EMPRESTADO")
         return novoEmprestimo
 
     def registrarDevolucao(self, idItem):
         for emprestimo in self.emprestimos:
-            if idItem == emprestimo.id:
+            if idItem == emprestimo.idItem:
                 emprestimo.concluir()
                 return True
 

@@ -4,8 +4,8 @@ from datetime import datetime, timedelta
 class Emprestimo:
     def __init__(self, idEmprestimo, idUsuario, idItem, StatusEmprestimo):
         self.idEmprestimo = idEmprestimo
-        self.usuario = idUsuario
-        self.item = idItem
+        self.idUsuario = idUsuario
+        self.idItem = idItem
         self.StatusEmprestimo = StatusEmprestimo
         self.dataEmprestimo = datetime.now()
         self.dataDevolucaoPrevista = None
