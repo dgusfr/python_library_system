@@ -17,6 +17,11 @@ Este é um sistema de gerenciamento de biblioteca implementado com Programação
 
 Este projeto permite o gerenciamento básico de uma biblioteca. Ele oferece funcionalidades para adicionar, listar e remover livros e usuários, além de gerenciar o sistema de empréstimos e devoluções de livros.
 
+<div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+  <img src="images/java.png" alt="Logo Java" width="150"/>
+</div>
+
+
 ## Funcionalidades
 
 - Adicionar, listar e remover livros da biblioteca.
