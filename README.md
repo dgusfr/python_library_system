@@ -25,6 +25,11 @@ Este projeto permite o gerenciamento básico de uma biblioteca, ele possuiu os s
 
 * 4. `Consultas e Relatórios`
 
+<div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+  <img src="images/image_one.png" alt="Logo" width="550"/>
+</div>
+
+
 
 Para implementar essas funcionalidades, o nosso porjeto conta com as seguintes classes fundamentais:
 
