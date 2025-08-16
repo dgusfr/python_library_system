@@ -37,8 +37,12 @@ Para implementar essas funcionalidades, o nosso porjeto conta com as seguintes c
 3.  **O Empréstimo:** O ato que conecta um `Usuário` a um `Item` por um período.
 4.  **A Biblioteca:** A entidade central que gerencia todo o acervo, os usuários e os empréstimos.
 
-As classes são intituladas como: `ItemAcervo`, `Usuario`, `Emprestimo` e `Biblioteca`.
+As classes são intituladas como: `ItemAcervo`, `Usuario`, `Emprestimo` e `Biblioteca`. Nosso diagrama UML de classes fica desta maneira:
 
+
+<div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+  <img src="images/image_one.png" alt="Logo" width="550"/>
+</div>
 
 
 
