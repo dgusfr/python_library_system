@@ -15,11 +15,27 @@ Este é um sistema de gerenciamento de biblioteca implementado com Programação
 
 ## Descrição
 
-Este projeto permite o gerenciamento básico de uma biblioteca. Ele oferece funcionalidades para adicionar, listar e remover livros e usuários, além de gerenciar o sistema de empréstimos e devoluções de livros.
+Este projeto permite o gerenciamento básico de uma biblioteca, ele possuiu os seguites funcionalidades: 
 
-<div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
-  <img src="images/java.png" alt="Logo Java" width="150"/>
-</div>
+* 1. `Gestão do Acervo`
+
+* 2. Gestão de Usuários
+
+* 3. Operações de Empréstimo
+
+* 4. Consultas e Relatórios
+
+ nele temos quatro entidades fundamentais:
+
+1.  **O Item do Acervo:** Aquilo que a biblioteca empresta. Pode ser um livro, uma revista, um filme, etc.
+2.  **O Usuário:** A pessoa que pega um item emprestado.
+3.  **O Empréstimo:** O ato que conecta um `Usuário` a um `Item` por um período.
+4.  **A Biblioteca:** A entidade central que gerencia todo o acervo, os usuários e os empréstimos.
+
+Isso nos leva naturalmente às seguintes classes principais: `ItemAcervo`, `Usuario`, `Emprestimo` e `Biblioteca`.
+
+
+
 
 
 ## Funcionalidades
