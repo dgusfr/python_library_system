@@ -1,8 +1,9 @@
 class Usuario:
-    def __init__(self, nome, email):
+    def __init__(self, idUsuario, nome, email, StatusUsuario):
+        self.idUsuario = idUsuario
         self.nome = nome
         self.email = email
-        self.emprestimos = []
+        self.StatusUsuario = StatusUsuario
 
-    def __str__(self):
-        return f"Usuário: {self.nome}, Email: {self.email}"
+    def alterarStatus(self, novoStatus):
+        self.StatusUsuario = novoStatus

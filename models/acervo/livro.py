@@ -8,4 +8,4 @@ class livro(ItemAcervo):
         self.isbn = isbn
 
     def descrever(self):
-        return f"O item {self.titulo} foi adicionado com o status: {self.status}"
+        return f"O Livro {self.titulo} do autor {self.autor} foi adicionado ao acervo."

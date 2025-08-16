@@ -1,13 +1,19 @@
-from datetime import datetime
+from datetime import datetime, timedelta
 
 
 class Emprestimo:
-    def __init__(self, usuario, livro):
+    def __init__(self, idEmprestimo, usuario, item, StatusEmprestimo):
+        self.idEmprestimo = idEmprestimo
         self.usuario = usuario
-        self.livro = livro
-        self.data_emprestimo = datetime.now()
-        self.data_devolucao = None
+        self.item = item
+        self.StatusEmprestimo = StatusEmprestimo
+        self.dataEmprestimo = datetime.now()
+        self.dataDevolucaoPrevista = None
+        self.dataDevolucaoReal = None
 
-    def devolver(self):
-        self.data_devolucao = datetime.now()
-        self.livro.disponivel = True
+    def concluir(self):
+        self.StatusEmprestimo = "CONCLUIDO"
+        self.dataDevolucaoReal = datetime.now()
+
+    def renovar(self, dias):
+        self.dataDevolucaoPrevista += timedelta(days=dias)
